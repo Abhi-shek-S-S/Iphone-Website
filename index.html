@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/public//assets//images/apple.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple Iphone</title>
+  <script>
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDW9IDhVMqkPUQxHV8yGn6I3RoWqI1WSS4",
+      authDomain: "iphone-website-392c2.firebaseapp.com",
+      projectId: "iphone-website-392c2",
+      storageBucket: "iphone-website-392c2.firebasestorage.app",
+      messagingSenderId: "26687462068",
+      appId: "1:26687462068:web:b7c7052d5d5d9da8ce55e1",
+      measurementId: "G-TF2WYJVDGD"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
